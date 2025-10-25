@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 // Твой бекенд URL
-const API_URL = 'https://cinema-ifslutv.onrender.com/api';
+const API_URL = 'https://cinema-ifslutv.onrender.com';
 
 export default function App() {
   const [movies, setMovies] = useState([]);
